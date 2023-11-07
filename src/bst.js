@@ -3,6 +3,10 @@ export default class BST {
     this.root = null;
   }
 
+  search(value) {
+    return true;
+  }
+
   insertNode(insertedNode) {
     if (this.root === null) {
       this.root = insertedNode;
